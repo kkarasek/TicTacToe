@@ -1,0 +1,12 @@
+.background {
+    -fx-background-color: #F9F2ED
+}
+
+.singlePane {
+
+}
+
+Button {
+    -fx-background-color: rgb(208, 201, 192, 0.6);
+    /* -fx-font-weight: */
+}

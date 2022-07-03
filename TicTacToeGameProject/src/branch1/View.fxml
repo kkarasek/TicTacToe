@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="433.0" prefWidth="638.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="branch1.Controller">
+   <children>
+      <FlowPane hgap="5.0" layoutX="219.0" layoutY="126.0" prefHeight="197.0" prefWidth="200.0" vgap="5.0">
+         <children>
+            <Button fx:id="button7" mnemonicParsing="false" prefHeight="62.0" prefWidth="62.0">
+               <font>
+                  <Font name="Futura Medium" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button8" mnemonicParsing="false" prefHeight="62.0" prefWidth="62.0">
+               <font>
+                  <Font name="Futura Medium" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button9" mnemonicParsing="false" prefHeight="62.0" prefWidth="62.0">
+               <font>
+                  <Font name="Futura Medium" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button4" mnemonicParsing="false" prefHeight="62.0" prefWidth="62.0">
+               <font>
+                  <Font name="Futura Medium" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button5" mnemonicParsing="false" prefHeight="62.0" prefWidth="62.0">
+               <font>
+                  <Font name="Futura Medium" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button6" mnemonicParsing="false" prefHeight="62.0" prefWidth="62.0">
+               <font>
+                  <Font name="Futura Medium" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button1" mnemonicParsing="false" prefHeight="62.0" prefWidth="62.0">
+               <font>
+                  <Font name="Futura Medium" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button2" mnemonicParsing="false" prefHeight="62.0" prefWidth="62.0">
+               <font>
+                  <Font name="Futura Medium" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button3" mnemonicParsing="false" prefHeight="62.0" prefWidth="62.0">
+               <font>
+                  <Font name="Futura Medium" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </FlowPane>
+      <Label fx:id="gameText" alignment="TOP_CENTER" layoutX="232.0" layoutY="60.0" prefHeight="32.0" prefWidth="177.0" text="Tic-Tac-Toe" textAlignment="CENTER">
+         <font>
+            <Font name="Futura Medium" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="restart" layoutX="292.0" layoutY="359.0" mnemonicParsing="false" onAction="#setRestart" text="Restart">
+         <font>
+            <Font name="Futura Medium" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
